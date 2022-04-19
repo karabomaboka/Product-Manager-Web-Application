@@ -33,19 +33,24 @@ $statement->closeCursor();
                     <?php echo $category['categoryName']; ?>
                 </option>
             <?php endforeach; ?>
-            </select><br>
+            </select>
+            <br>
 
             <label>Code:</label>
-            <input type="text" name="code"><br>
+            <input type="input" name="code">
+            <br>
 
             <label>Name:</label>
-            <input type="text" name="name"><br>
+            <input type="input" name="name">
+            <br>
 
             <label>List Price:</label>
-            <input type="text" name="price"><br>
+            <input type="input" name="price">
+            <br>
 
             <label>&nbsp;</label>
-            <input type="submit" value="Add Product"><br>
+            <input type="submit" value="Add Product">
+            <br>
         </form>
         <p><a href="index.php">View Product List</a></p>
     </main>
