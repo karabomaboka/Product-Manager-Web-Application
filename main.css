@@ -101,6 +101,10 @@ br {
 .last_paragraph {
 	margin-bottom: 2em;	
 }
+.margin_top_increase {
+	margin-top: 1em;	
+}
+
 /********************************************************************
 * Additional styles for the Product Manager application
 ********************************************************************/
